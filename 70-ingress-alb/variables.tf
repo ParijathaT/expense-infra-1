@@ -16,9 +16,9 @@ variable "common_tags" {
 
 
 variable "zone_id" {
-    default = "Z021448929NMXW4P65UQE"
+    default = "Z04729173VH5W7THHB7Y3"
 }
 
 variable "domain_name" {
-    default = "daws82s.online"
+    default = "parijathapractice.online"
 }
