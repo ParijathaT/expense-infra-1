@@ -1,3 +1,4 @@
+
 terraform {
   required_providers {
     aws = {
@@ -7,8 +8,8 @@ terraform {
   }
 
   backend "s3" {
-    bucket = "82s-tf-remote-state-dev"
-    key    = "expense-dev-eks-acm" # you should have unique keys with in the bucket, same key should not be used in other repos or tf projects
+    bucket = "parijatha-tf-remote-state-dev"
+    key    = "expense-dev-acm" # you should have unique keys with in the bucket, same key should not be used in other repos or tf projects
     region = "us-east-1"
     dynamodb_table = "82s-tf-remote-state-dev"
   }
