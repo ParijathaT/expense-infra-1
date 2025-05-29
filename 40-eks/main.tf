@@ -1,6 +1,6 @@
 resource "aws_key_pair" "eks" {
   key_name   = "expense-eks"
-  public_key = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDAwrcfiQKv9v5spMRPVt0KiP+1LL2F10v3KfOC0P/9GchUoYQIeUVBSCMYBbcQdXp0dueCvo0/Jnu8VoPY6JNxjMp8KPcFPSD820/byrLX+nZSvBUyob+VjTVzaCn7B0bDNGszOfwMN9muq/CTMcMxQOIJ4jFecOgt7SgZbbNh7g6/2q5SJOuFiWZkqgsxvbAytVA3/FL0v5UU+Ba7Kh1Ugu1skQNDClvpZg+NzHHQNP6E4EWAtZSQUflPS83qtvJPF6cXj9bFb7h5kG+i2qWsB6+iujC+964XWImGr8ftVOpe6JWxRcg+C++bTJgz4sdWxCBbo/KtpzjLzVtvOpAI10V9Y+KGkPQuEVYty9Wk1HzLb13TS+iWbXXdrW0eadFl5nGsyrvE1Yen+Tae7J6ayRmjrfYw6Dio1rAmTW1Sms+Df4cESzpVsjEALfoqJmNxDJy6SLpZXQiNXhdeIAxkotnedo0fEHbsx15nx/0EJT9bHCfyh/l6g+l+4O2mjOE= user@AshDexter-T480"
+  public_key = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDZSp3Px92cdbE928+kX2H9BVaew7IwkYKP0HKeWpf/dkiJSYs+8VGjhg84uDRE9kQQtZ35TH3K8w+won6jtS/LuQQscZo2aAJ2Q2O6rYVmSpWUPD0UW/f25FElhvYbVmuA/lzEIoDJt5SQ2qmr8MFg7hWaqumBaMxCvsEjQqNby/vW1erPQFeItCf1mD00LbUUqptJCz1LMK27/bBEl4+98Tw8tAsFXEf8racIDvxFcvtLhdp34uLrsn6IbJSHURV3z58Ah06McTIgx4Xkw9YTVyfPuaHHOniTyJ9t8eH1MGQvKuMh20U3YyZqKOIEsmWV1Jj28F17f+UTdJnjQrpH ec2-user"
 }
 
 module "eks" {
