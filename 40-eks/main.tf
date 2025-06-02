@@ -1,5 +1,5 @@
 resource "aws_key_pair" "eks" {
-  key_name   = "expense-eks"
+  key_name   = "paru123"
   public_key = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDZSp3Px92cdbE928+kX2H9BVaew7IwkYKP0HKeWpf/dkiJSYs+8VGjhg84uDRE9kQQtZ35TH3K8w+won6jtS/LuQQscZo2aAJ2Q2O6rYVmSpWUPD0UW/f25FElhvYbVmuA/lzEIoDJt5SQ2qmr8MFg7hWaqumBaMxCvsEjQqNby/vW1erPQFeItCf1mD00LbUUqptJCz1LMK27/bBEl4+98Tw8tAsFXEf8racIDvxFcvtLhdp34uLrsn6IbJSHURV3z58Ah06McTIgx4Xkw9YTVyfPuaHHOniTyJ9t8eH1MGQvKuMh20U3YyZqKOIEsmWV1Jj28F17f+UTdJnjQrpH ec2-user"
 }
 
